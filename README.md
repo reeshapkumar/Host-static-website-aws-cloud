@@ -109,7 +109,11 @@ Here’s a simple example of static website files:
     <title>My Static Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<html>
+``
+``
+<html>
+    <body>
     <header>
         <h1>Welcome to My Static Website</h1>
     </header>
@@ -121,7 +125,9 @@ Here’s a simple example of static website files:
     </footer>
 </body>
 </html>
-css
+    ``
+    
+``css
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
