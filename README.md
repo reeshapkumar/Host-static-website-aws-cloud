@@ -121,6 +121,7 @@ Here’s a simple example of static website files:
     </footer>
 </body>
 </html>
+``
 
 ``css
 body {
