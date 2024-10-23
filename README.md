@@ -43,7 +43,7 @@ Go to the Permissions tab in your S3 bucket.
 Click on Bucket Policy.
 Add the following policy to allow public access to your files (replace my-static-website with your bucket name):
 
-``json
+```json
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -56,7 +56,7 @@ Add the following policy to allow public access to your files (replace my-static
         }
     ]
 }
-``
+```
 
 Click on Save.
 Ensure that Block public access is disabled in the Permissions tab to allow public access.
@@ -91,16 +91,16 @@ Click on Create.
 
 If using S3 directly, your website URL will be in the format:
 
-``vbnet
+```vbnet
 http://my-static-website.s3-website-us-east-1.amazonaws.com
-``
+```
 
 If using CloudFront, access your website using the CloudFront URL.
 If you set up Route 53, you can access your website using your custom domain.
 Example Static Website Code
 Here’s a simple example of static website files:
 
-``html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -110,8 +110,8 @@ Here’s a simple example of static website files:
     <link rel="stylesheet" href="styles.css">
 </head>
 <html>
-``
-``
+```
+```
 <html>
     <body>
     <header>
@@ -125,9 +125,9 @@ Here’s a simple example of static website files:
     </footer>
 </body>
 </html>
-    ``
+```
     
-``css
+```css
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -153,7 +153,7 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
-``
+```
 
 **Conclusion**
 
